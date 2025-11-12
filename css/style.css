@@ -1,0 +1,106 @@
+/* Fonts & base setup */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f1efee;
+  color: #493b31;
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #493b31;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #6b5f55;
+  margin-bottom: 1.5rem;
+}
+
+nav a {
+  color: #493b31;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #493b31;
+}
+
+/* Projects */
+.projects {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-grid article {
+  background-color: #cec3ba;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.project-grid article:hover {
+  transform: scale(1.02);
+}
+
+.project-grid img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+/* About */
+.about, .contact {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #493b31;
+  color: #f1efee;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #6b5f55;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #cec3ba;
+  color: #6b5f55;
+}
